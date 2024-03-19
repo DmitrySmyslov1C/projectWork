@@ -1,0 +1,57 @@
+@startuml
+'>>> библиотека 1ce-icons-for-plantuml (ext)
+!define v8_PUML https://raw.githubusercontent.com/plastinin/1ce-icons-for-plantuml/extended/dist/
+!include v8_PUML/common.puml
+!include v8_PUML/v8_AccRg.puml
+!include v8_PUML/v8_Document.puml
+!include v8_PUML/v8_Catalog.puml
+!include v8_PUML/v8_InfoRg.puml
+!include v8_PUML/v8_ChartsOfCharacteristicTypes.puml
+!include v8_PUML/v8_DefinedTypes.puml
+!include v8_PUML/v8_Enum.puml
+'<<<
+
+_Справочник(Номенклатура, "Номенклатура") {
+	 {static} ИмяПредопределенныхДанных
+	 {static} Предопределенный
+	 {static} Ссылка
+	 {static} ПометкаУдаления
+	 {static} Наименование
+	 {static} Код
+	 +Услуга
+}
+_Справочник(КартыЛояльности, "Карты лояльности") {
+	 {static} ИмяПредопределенныхДанных
+	 {static} Предопределенный
+	 {static} Ссылка
+	 {static} ПометкаУдаления
+	 {static} Наименование
+	 {static} Код
+	 +НомерКарты
+	 +Телефон
+}
+_Документ(РеализацияТоваровИУслуг, "Реализация товаров и услуг") {
+	 {static} Проведен
+	 {static} Ссылка
+	 {static} ПометкаУдаления
+	 {static} Дата
+	 {static} Номер
+	 +КартаЛаяльности
+	 +СписатьБаллы
+	 +СуммаДокумента
+	 +Скидка
+	 +КоличествоСписанныхБалов
+}
+_РегистрНакопления(Баллы, "Баллы") {
+	 {static} ВидДвижения
+	 {static} Активность
+	 {static} НомерСтроки
+	 {static} Регистратор
+	 {static} Период
+	 <$d> КартаЛояльности
+	 <$r> Количество
+}
+КартыЛояльности --> РеализацияТоваровИУслуг
+РеализацияТоваровИУслуг --> Баллы
+КартыЛояльности --> Баллы
+@enduml
