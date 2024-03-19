@@ -510,6 +510,8 @@
 			<CommonPicture>ЦветФона</CommonPicture>
 			<CommonPicture>ШтампЭлектроннойПодписи</CommonPicture>
 			<CommonPicture>УдалитьИнформация</CommonPicture>
+			<CommonPicture>АЗС</CommonPicture>
+			<CommonPicture>ЗаставкаМагазин</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>БуферОбмена</SessionParameter>
 			<SessionParameter>ВерсияРасширений</SessionParameter>
