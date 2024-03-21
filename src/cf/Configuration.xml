@@ -786,6 +786,7 @@
 			<Catalog>ШаблоныАнкет</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>КартыЛояльности</Catalog>
+			<Catalog>ИсходящиеСообщенияRMQ</Catalog>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>Анкета</Document>
 			<Document>НазначениеОпросов</Document>
@@ -818,6 +819,7 @@
 			<DataProcessor>ОценкаПроизводительности</DataProcessor>
 			<DataProcessor>РезультатыОбновленияПрограммы</DataProcessor>
 			<DataProcessor>РекомендацияПоПовышениюСкоростиРаботы</DataProcessor>
+			<DataProcessor>КомпонентаPinkRabbitMQ</DataProcessor>
 			<InformationRegister>БезопасноеХранилищеДанных</InformationRegister>
 			<InformationRegister>ВерсииПодсистем</InformationRegister>
 			<InformationRegister>ДанныеОбработанныеВЦентральномУзлеРИБ</InformationRegister>
