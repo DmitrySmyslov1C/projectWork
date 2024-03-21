@@ -25,7 +25,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.КартыЛояльности</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Баллы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">fb9b3bfa-3833-4258-bc2d-558cb766edd1</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьАнкетирование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИспользоватьАнкетирование</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

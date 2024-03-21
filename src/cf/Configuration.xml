@@ -253,6 +253,9 @@
 			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<Subsystem>СтандартныеПодсистемы</Subsystem>
 			<Subsystem>АЗС</Subsystem>
+			<Subsystem>Анкетирование</Subsystem>
+			<Subsystem>ОценкаПроизводительности</Subsystem>
+			<Subsystem>Пользователи</Subsystem>
 			<StyleItem>ВажнаяНадписьШрифт</StyleItem>
 			<StyleItem>ЗаблокированныйРеквизитЦвет</StyleItem>
 			<StyleItem>ГиперссылкаЦвет</StyleItem>

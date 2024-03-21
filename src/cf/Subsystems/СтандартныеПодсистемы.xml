@@ -11,10 +11,13 @@
 			</Synonym>
 			<Comment/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
 			<UseOneCommand>false</UseOneCommand>
 			<Explanation/>
-			<Picture/>
+			<Picture>
+				<xr:Ref>CommonPicture.МетаданныеКонстанты</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<Content/>
 		</Properties>
 		<ChildObjects>
